@@ -1,8 +1,9 @@
 # LearnHarness Mobile
 
-Adaptiver KI-Lern-Tutor für Android — powered by Google Gemini.
+Adaptiver KI-Lern-Tutor für **Android** und **iPhone/iPad** — powered by Google Gemini.
 
-**[⬇️ APK herunterladen (v1.3.0)](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.3.0/LearnHarness-Mobile-v1.3.0.apk)**
+**[⬇️ Android: APK herunterladen (v1.3.0)](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.3.0/LearnHarness-Mobile-v1.3.0.apk)**
+**[🍎 iPhone/iPad: Web-App öffnen](https://killlerboss.github.io/learnharness-mobile/)**
 
 ## Features
 - **🆕 Live-Modellkatalog**: Ruft die verfügbaren Gemini-Modelle live von der API ab — immer aktuell (Gemini 4 Argon, 3.8 Flash, 3.5 Flash-Lite, …), ohne App-Update
@@ -20,6 +21,21 @@ Adaptiver KI-Lern-Tutor für Android — powered by Google Gemini.
 3. APK öffnen und installieren (Android 12+)
 4. Kostenlosen API-Key auf [aistudio.google.com/apikey](https://aistudio.google.com/apikey) erstellen
 5. Key in der App unter ⚙️ Einstellungen eingeben — los geht's!
+
+## 🍎 iPhone & iPad (iOS) installieren
+Apple erlaubt keine APK-artigen Direkt-Downloads — deshalb läuft LearnHarness auf dem iPhone als **Web-App (PWA)** mit gleichem Funktionsumfang: Wissensgraph, Lernpläne, Quiz, Bild-Upload, Spracheingabe.
+
+**So wird's installiert (2 Minuten):**
+1. **Safari** öffnen (wichtig: nicht Chrome!) und diese Adresse aufrufen:
+   **https://killlerboss.github.io/learnharness-mobile/**
+2. Unten auf **Teilen** tippen (Quadrat mit Pfeil nach oben)
+3. **„Zum Home-Bildschirm"** auswählen
+4. **„Hinzufügen"** tippen — fertig: LearnHarness liegt als eigenes Icon auf dem Startbildschirm und öffnet sich vollflächig wie eine native App
+
+Hinweise:
+- Kostenloser Gemini-API-Key: [aistudio.google.com/apikey](https://aistudio.google.com/apikey) — einmal in der App unter ⚙️ Einstellungen eintragen
+- Funktioniert auch **offline** (App-Oberfläche wird gespeichert; Antworten braucht natürlich Internet)
+- Läuft genauso auf iPad und Mac (Safari) sowie auf Android-Geräten ohne APK-Installation
 
 ## Downloads (Release v1.3.0)
 | Datei | Beschreibung |
