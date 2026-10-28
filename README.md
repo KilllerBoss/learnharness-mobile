@@ -2,7 +2,7 @@
 
 Adaptiver KI-Lern-Tutor für Android — powered by Google Gemini.
 
-**[⬇️ APK herunterladen (v1.2.0)](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.2.0/LearnHarness-Mobile-v1.2.0.apk)**
+**[⬇️ APK herunterladen (v1.3.0)](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.3.0/LearnHarness-Mobile-v1.3.0.apk)**
 
 ## Features
 - **🆕 Live-Modellkatalog**: Ruft die verfügbaren Gemini-Modelle live von der API ab — immer aktuell (Gemini 4 Argon, 3.8 Flash, 3.5 Flash-Lite, …), ohne App-Update
@@ -21,11 +21,11 @@ Adaptiver KI-Lern-Tutor für Android — powered by Google Gemini.
 4. Kostenlosen API-Key auf [aistudio.google.com/apikey](https://aistudio.google.com/apikey) erstellen
 5. Key in der App unter ⚙️ Einstellungen eingeben — los geht's!
 
-## Downloads (Release v1.2.0)
+## Downloads (Release v1.3.0)
 | Datei | Beschreibung |
 |---|---|
-| [LearnHarness-Mobile-v1.2.0.apk](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.2.0/LearnHarness-Mobile-v1.2.0.apk) | Installierbare App (8,8 MB, signiert) |
-| [learnharness-mobile-source.zip](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.2.0/learnharness-mobile-source.zip) | Vollständiger Quellcode |
+| [LearnHarness-Mobile-v1.3.0.apk](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.3.0/LearnHarness-Mobile-v1.3.0.apk) | Installierbare App (8,8 MB, signiert) |
+| [learnharness-mobile-source.zip](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.3.0/learnharness-mobile-source.zip) | Vollständiger Quellcode |
 | [learnharness-release.keystore](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.0.0/learnharness-release.keystore) | Signatur-Schlüssel (Alias: learnharness) |
 
 ## Tech-Stack
