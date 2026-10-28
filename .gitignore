@@ -1,0 +1,15 @@
+learnharness-mobile/node_modules/
+learnharness-mobile/dist/
+learnharness-mobile/dist-pwa/
+learnharness-mobile/android/.gradle/
+learnharness-mobile/android/build/
+learnharness-mobile/android/app/build/
+learnharness-mobile/android/local.properties
+download/
+skills/
+restore15/
+gh-pages/
+pwa-deploy/
+repo-main/
+scripts/
+*.log
