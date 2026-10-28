@@ -43,11 +43,11 @@ Hinweise:
 - Funktioniert auch **offline** (App-Oberfläche wird gespeichert; Antworten braucht natürlich Internet)
 - Läuft genauso auf iPad und Mac (Safari) sowie auf Android-Geräten ohne APK-Installation
 
-## Downloads (Release v1.4.0)
+## Downloads (Release v1.5.0)
 | Datei | Beschreibung |
 |---|---|
-| [LearnHarness-Mobile-v1.4.0.apk](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.4.0/LearnHarness-Mobile-v1.4.0.apk) | Installierbare App (8,8 MB, signiert) |
-| [learnharness-mobile-source.zip](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.4.0/learnharness-mobile-source.zip) | Vollständiger Quellcode (v1.4.0) |
+| [LearnHarness-Mobile-v1.5.0.apk](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.5.0/LearnHarness-Mobile-v1.5.0.apk) | Installierbare App (8,9 MB, signiert) |
+| [learnharness-mobile-source.zip](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.5.0/learnharness-mobile-source.zip) | Vollständiger Quellcode (v1.5.0) |
 | [learnharness-release.keystore](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.0.0/learnharness-release.keystore) | Signatur-Schlüssel (Alias: learnharness) |
 
 ## Tech-Stack
