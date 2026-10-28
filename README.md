@@ -1,5 +1,9 @@
 # LearnHarness Mobile v1.0.0
 
+
+**[⬇️ APK herunterladen (v1.0.0)](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.0.0/LearnHarness-Mobile-v1.0.0.apk)** · [Quellcode](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.0.0/learnharness-mobile-source.zip) · [Keystore](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.0.0/learnharness-release.keystore)
+
+
 Adaptiver KI-Lerntutor für Android — die Mobile-Adaption von
 [learnharness](https://github.com/amosblomqvist/learnharness) mit Gemini API,
 gebaut nach dem UI-Design-System aus `design.md` (Dark Mode, Composer-Pill,
