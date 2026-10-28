@@ -1,0 +1,25 @@
+/* ─── Design Tokens — aus design.md ─────────────────────────────────────────── */
+:root {
+  --bg-canvas: #0d0d0d;
+  --bg-surface: #1c1c1c;
+  --border-subtle: #2a2a2a;
+  --bg-control: #2b2b2b;
+  --bg-badge: #3d3d3d;
+  --bg-primary-action: #6e6e6e;
+  --text-primary: #ffffff;
+  --text-secondary: #8e8e93;
+  --text-placeholder: #6c6c70;
+  --icon-on-primary: #141414;
+
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', system-ui, sans-serif;
+
+  --radius-composer: 26px;
+  --radius-pill: 8px;
+  --radius-badge: 4px;
+  --radius-bubble: 20px;
+  --size-action: 36px;
+  --size-pill: 32px;
+  --screen-pad: max(14px, env(safe-area-inset-left));
+
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
+}
