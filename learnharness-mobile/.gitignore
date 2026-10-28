@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-pwa/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+gh-pages/
+pwa-deploy/
+repo-main/
+*.log
+.DS_Store
