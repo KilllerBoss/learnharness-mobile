@@ -1,81 +1,34 @@
-# LearnHarness Mobile v1.0.0
+# LearnHarness Mobile
 
+Adaptiver KI-Lern-Tutor für Android — powered by Google Gemini.
 
-**[⬇️ APK herunterladen (v1.0.0)](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.0.0/LearnHarness-Mobile-v1.0.0.apk)** · [Quellcode](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.0.0/learnharness-mobile-source.zip) · [Keystore](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.0.0/learnharness-release.keystore)
+**[⬇️ APK herunterladen (v1.1.0)](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.1.0/LearnHarness-Mobile-v1.1.0.apk)**
 
+## Features
+- **🆕 Live-Modellkatalog**: Ruft die verfügbaren Gemini-Modelle live von der API ab — immer aktuell (Gemini 4 Argon, 3.8 Flash, 3.5 Flash-Lite, …), ohne App-Update
+- **Gemini 2.5→Migration**: Alte Modellauswahlen werden automatisch auf die aktuelle Generation umgestellt
+- **Lern-Workflow**: Diagnose → Lernplan → Lehre → Übungen (adaptiv, komplett deutsch)
+- **Interaktiver Wissensgraph** mit Canvas-Force-Layout
+- **Bild-Upload (Vision)** und **Sprachdiktat** (geräteseitig, offline)
+- **Markdown + KaTeX** für perfekte Formeldarstellung
+- **Thinking-Mode** (Glühbirnen-Toggle) für tiefere Antworten
+- **Vollständig lokal**: API-Key und Chats bleiben auf dem Gerät
 
-Adaptiver KI-Lerntutor für Android — die Mobile-Adaption von
-[learnharness](https://github.com/amosblomqvist/learnharness) mit Gemini API,
-gebaut nach dem UI-Design-System aus `design.md` (Dark Mode, Composer-Pill,
-Model-Selector).
+## Installation
+1. APK über den Link oben herunterladen
+2. In Android-Einstellungen „Installation aus unbekannten Quellen" für den Browser erlauben
+3. APK öffnen und installieren (Android 12+)
+4. Kostenlosen API-Key auf [aistudio.google.com/apikey](https://aistudio.google.com/apikey) erstellen
+5. Key in der App unter ⚙️ Einstellungen eingeben — los geht's!
 
----
-
-## 📲 Installation auf dem Galaxy S26 Ultra
-
-1. **`LearnHarness-Mobile-v1.0.0.apk`** auf das Handy übertragen
-   (USB, Cloud, oder direkt im Handy-Browser herunterladen).
-2. APK antippen → Android fragt, ob Apps aus dieser Quelle installiert
-   werden dürfen → **Zulassen** (das APK ist selbst signiert, kein Play Store).
-3. App öffnen → **Einstellungen → Gemini API → API-Schlüssel** einfügen →
-   **Testen** → grünes Häkchen → fertig.
-
-Schlüssel kostenlos erstellen: **https://aistudio.google.com/apikey**
-
-> Empfohlenes Startmodell: **Gemini 2.5 Flash** (Standard) — schnell und
-> günstig. Pro ist für schwere Probleme, Lite für einfache Fragen.
-
-## ✨ Funktionen
-
-| Bereich | Beschreibung |
+## Downloads (Release v1.1.0)
+| Datei | Beschreibung |
 |---|---|
-| **Adaptiver Tutor** | Diagnose → Plan → Lehren in Denk-Schritten → Üben (learnharness-Methodik, komplett deutsch) |
-| **Denkmodus** (Glühbirne) | Aktiviert Gemini Thinking — der Modell-Gedankengang ist einblendbar („Gedankengang") |
-| **3 Modelle** | Flash / Flash-Lite / Pro umschaltbar über die Model-Pill unten rechts |
-| **Wissensgraph** | Extrahiert automatisch Konzepte + Aussagen + Abhängigkeiten aus jedem Dialog (persistiert, Ansicht mit Force-Graph, Beherrschungs-Level, „X üben"-Button) |
-| **Sessions** | Mehrere Lern-Chats mit Verlauf im Drawer (Icon oben links) |
-| **Bild-Upload** | `+` → Kamera oder Galerie — Aufgaben/Diagramme werden von Gemini vision-analysiert |
-| **Notizen-Import** | `.txt`/`.md` im Drawer importieren → Tutor startet mit Wissenseinschätzung |
-| **Sprachdiktat** | Mikrofon-Button — Android-Spracherkennung, **on-device** (Galaxy-Sprachengine/NPU, sofern verfügbar) |
-| **Vorlesen (TTS)** | Lautsprecher-Icon unter Antworten — lokale System-Stimme, Rate einstellbar |
-| **Markdown + Mathe** | Vollwertiges Rendering: Code-Blöcke mit Copy-Button, KaTeX-Formeln, Tabellen |
-| **Datenschutz** | API-Key und alle Daten bleiben lokal auf dem Gerät (localStorage), Export als JSON |
+| [LearnHarness-Mobile-v1.1.0.apk](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.1.0/LearnHarness-Mobile-v1.1.0.apk) | Installierbare App (8,8 MB, signiert) |
+| [learnharness-mobile-source-v1.1.0.zip](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.1.0/learnharness-mobile-source-v1.1.0.zip) | Vollständiger Quellcode |
+| [learnharness-release.keystore](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.0.0/learnharness-release.keystore) | Signatur-Schlüssel (Alias: learnharness) |
 
-## 🔐 Signatur / Updates
+## Tech-Stack
+Capacitor 7 · React 18 · TypeScript · Vite 6 · Gemini API (SSE-Streaming, ListModels)
 
-```
-Keystore:  learnharness-release.keystore  (liegt neben der APK)
-Alias:     learnharness
-Passwort:  LearnHarness2026!
-Schema:    APK Signature Scheme v2 · SHA384withRSA, 2048 Bit
-```
-
-⚠️ **Keystore sicher aufbewahren** — nur damit signierte Updates installieren
-Android ohne Deinstallation. Für den Play Store später einen eigenen Keystore
-verwenden.
-
-## 🧱 Technik
-
-- **Capacitor 7** (native WebView-Shell) + **React 18** + **TypeScript** + **Vite 6**
-- **Gemini API** (`v1beta`, SSE-Streaming, `thinkingConfig`, `responseSchema`-JSON, Vision)
-- **Native Bridge** `LearnSpeechPlugin.java`: `android.speech.SpeechRecognizer`
-  + `android.speech.tts.TextToSpeech` (beides on-device Engines)
-- minSdk 31 (Android 12) · targetSdk 35 · ~8,8 MB · keine Tracker, keine Analytics
-- Lizenz: AGPL-3.0 (erbt vom Original-Projekt)
-
-## 🔧 Selbst bauen
-
-```bash
-# Voraussetzungen: Node 20+, JDK 21, Android SDK (android-35, build-tools 35)
-cd learnharness-mobile
-npm install
-npm run apk            # build + cap sync + gradle assembleRelease
-# → android/app/build/outputs/apk/release/app-release.apk
-```
-
-Web-Only-Entwicklung: `npm run dev` (Vite-Dev-Server im Browser).
-
-## 📸 Screenshots
-
-Siehe Ordner `screenshots/` (Leer-Zustand, Modell-Menü, Streaming, Verlauf,
-Wissensgraph, Einstellungen — 412×893, wie auf dem S26 Ultra gerendert).
+> Min SDK: Android 12 (API 31) · Target SDK: Android 15 (API 35)
