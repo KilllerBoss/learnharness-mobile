@@ -2,10 +2,12 @@
 
 Adaptiver KI-Lern-Tutor für **Android** und **iPhone/iPad** — powered by Google Gemini.
 
-**[⬇️ Android: APK herunterladen (v1.3.0)](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.3.0/LearnHarness-Mobile-v1.3.0.apk)**
+**[⬇️ Android: APK herunterladen (v1.4.0)](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.4.0/LearnHarness-Mobile-v1.4.0.apk)**
 **[🍎 iPhone/iPad: Web-App öffnen](https://killlerboss.github.io/learnharness-mobile/)**
 
 ## Features
+- **🆕 Mehrsprachig**: Oberfläche **Deutsch / Русский / English**; Lernziel zusätzlich **中文 im Pinyin-Modus** („Tā shì rén (他是人)“ — Tonzeichen statt nackter Schriftzeichen). Muttersprache frei wählbar
+- **🆕 8 KI-Anbieter**: Google Gemini, **Pollinations (kostenlos, ohne API-Key, funktioniert in Russland!)**, VseGPT, DeepSeek, OpenRouter, Groq, Mistral, Hugging Face — plus eigener Endpoint (OpenAI-Format)
 - **🆕 Live-Modellkatalog**: Ruft die verfügbaren Gemini-Modelle live von der API ab — immer aktuell (Gemini 4 Argon, 3.8 Flash, 3.5 Flash-Lite, …), ohne App-Update
 - **Gemini 2.5→Migration**: Alte Modellauswahlen werden automatisch auf die aktuelle Generation umgestellt
 - **Lern-Workflow**: Diagnose → Lernplan → Lehre → Übungen (adaptiv, komplett deutsch)
@@ -22,6 +24,9 @@ Adaptiver KI-Lern-Tutor für **Android** und **iPhone/iPad** — powered by Goog
 4. Kostenlosen API-Key auf [aistudio.google.com/apikey](https://aistudio.google.com/apikey) erstellen
 5. Key in der App unter ⚙️ Einstellungen eingeben — los geht's!
 
+## 🌍 Für Nutzer in Russland
+Gemini ist dort blockiert. In der App unter Einstellungen → **KI-Anbieter** einfach **Pollinations** wählen — kostenlos und **ohne API-Key** nutzbar. Alternativen: VseGPT (Zahlung mit russischen Karten), DeepSeek (günstig), Hugging Face (kostenlos mit Token). OpenRouter ist in Russland blockiert.
+
 ## 🍎 iPhone & iPad (iOS) installieren
 Apple erlaubt keine APK-artigen Direkt-Downloads — deshalb läuft LearnHarness auf dem iPhone als **Web-App (PWA)** mit gleichem Funktionsumfang: Wissensgraph, Lernpläne, Quiz, Bild-Upload, Spracheingabe.
 
@@ -37,11 +42,11 @@ Hinweise:
 - Funktioniert auch **offline** (App-Oberfläche wird gespeichert; Antworten braucht natürlich Internet)
 - Läuft genauso auf iPad und Mac (Safari) sowie auf Android-Geräten ohne APK-Installation
 
-## Downloads (Release v1.3.0)
+## Downloads (Release v1.4.0)
 | Datei | Beschreibung |
 |---|---|
-| [LearnHarness-Mobile-v1.3.0.apk](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.3.0/LearnHarness-Mobile-v1.3.0.apk) | Installierbare App (8,8 MB, signiert) |
-| [learnharness-mobile-source.zip](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.3.0/learnharness-mobile-source.zip) | Vollständiger Quellcode |
+| [LearnHarness-Mobile-v1.4.0.apk](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.4.0/LearnHarness-Mobile-v1.4.0.apk) | Installierbare App (8,8 MB, signiert) |
+| [learnharness-mobile-source.zip](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.4.0/learnharness-mobile-source.zip) | Vollständiger Quellcode (v1.4.0) |
 | [learnharness-release.keystore](https://github.com/KilllerBoss/learnharness-mobile/releases/download/v1.0.0/learnharness-release.keystore) | Signatur-Schlüssel (Alias: learnharness) |
 
 ## Tech-Stack
